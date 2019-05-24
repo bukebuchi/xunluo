@@ -12,7 +12,7 @@ var Title = React.createClass({
         return (
             <div className="title">
                 <img src={logo} className="logo" />
-                <span className="headName">百度鹰眼</span>   
+                <span className="headName">人员巡更管理系统</span>   
             </div>
         )
     }

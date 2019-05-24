@@ -41,7 +41,7 @@
             </p>
         </div>
         <div class="copyright">
-            <p>Powered by <a href="">至简物业</a></p>
+            <p>Powered by <a href="">巡更人员管理</a></p>
         </div>
         <script type="text/javascript">
             (function () {
