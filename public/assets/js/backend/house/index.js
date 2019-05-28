@@ -61,7 +61,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'baidueditor'], funct
                         {field: 'rooms', title: __('Rooms'), operate: false},
                         {field: 'unit', title: __('Unit'), operate: false},
                         {field: 'floor', title: __('Floor'), operate: false},
-                        {field: 'desc', title: __('Desc'), operate: false},
+                        {field: 'desc', title: __('Desc')},
                         {field: 'enter_time', title: __('EnterTime'),formatter: Table.api.formatter.date},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]

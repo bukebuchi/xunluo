@@ -1,8 +1,8 @@
 <?php
 return [
     'Id'                => 'ID',
-    'Code'              => '小区编号',
-    'Name'              => '小区名称',
+    'Code'              => '片区编号',
+    'Name'              => '片区名称',
     'Thumb'             => '缩略图',
     'Introduction'      => '简介',
     'Address'           => '坐落地址',
@@ -13,5 +13,5 @@ return [
     'TotalBuilding'     => '总栋数',
     'TotalOwner'        => '总户数',
     'CreateTime'        => '创建时间',
-    'Manager'           => '小区管理员'
+    'Manager'           => '片区管理员'
 ];

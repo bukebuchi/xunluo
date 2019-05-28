@@ -24,6 +24,7 @@ class Index extends Backend {
         $this->model = model('Community');
         $this->communityAdminModel = model('CommunityAdmin');
         $admins = model('Admin')->where(array('status'=>'normal'))->column('id,concat(nickname,\' [\',username,\']\') as name');
+        
         $this->view->assign('admins',$admins);
     }
 

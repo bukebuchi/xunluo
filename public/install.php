@@ -94,7 +94,7 @@ if (!$errInfo && isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD']
 {
     $err = '';
     $mysqlHostname = isset($_POST['mysqlHost']) ? $_POST['mysqlHost'] : 'localhost';
-    $mysqlHostport = 3306;
+    $mysqlHostport = 3308;
     $hostArr = explode(':', $mysqlHostname);
     if (count($hostArr) > 1)
     {
